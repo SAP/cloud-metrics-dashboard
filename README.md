@@ -25,7 +25,7 @@ The response contains the state and metrics of the requested application.
 
 5.	The dashboard application requests the metrics of other Java applications by repeating steps 1 to 5.
 
-6.	The dashboard application�s UI uses the list with metrics to display those metrics in the browser.
+6.	The dashboard application's UI uses the list with metrics to display those metrics in the browser.
 
 This cloud-metrics-dashboard application is implemented to retrieve the state of two Java applications and the state and metrics of all the processes running on the two Java applications. However, you can change or extend this dashboard application to match your scenario.
 
