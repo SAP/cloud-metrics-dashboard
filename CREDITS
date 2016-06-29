@@ -1,0 +1,18 @@
+This program references the following third party open source or other free download components.
+The third party licensors of these components may provide additional license rights,
+terms and conditions and/or require certain notices as described below.
+
+Apache HttpComponents Client(https://hc.apache.org/httpcomponents-client-ga/)
+Licensed under Apache License, Version 2.0 - http://www.apache.org/licenses/LICENSE-2.0
+
+Apache Commons Logging (http://commons.apache.org/proper/commons-logging/)
+Licensed under Apache License, Version 2.0 - http://www.apache.org/licenses/LICENSE-2.0
+
+Apache Log4j (http://logging.apache.org/log4j/1.2/)
+Licensed under Apache License, Version 2.0 - http://www.apache.org/licenses/LICENSE-2.0
+
+Google gson(http://code.google.com/p/google-gson/)
+Licensed under Apache License, Version 2.0 - http://www.apache.org/licenses/LICENSE-2.0
+
+SAP OpenUI5(https://openui5.hana.ondemand.com/#docs/guide/95d113be50ae40d5b0b562b84d715227.html)
+Licensed under Apache License, Version 2.0 - https://openui5.hana.ondemand.com/#LICENSE.txt
