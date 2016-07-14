@@ -32,7 +32,7 @@ This cloud-metrics-dashboard application is implemented to retrieve the state of
 Configuration
 -------------
 
-Download this project locally and follow the instructions in [Tutorial: Implementing a Dashboard Application](http://scn.sap.com/docs/DOC-73788).
+Download this project locally and follow the instructions in [Tutorial: Implementing a Dashboard Application](https://help.hana.ondemand.com/help/frameset.htm?e4aec18cf61747a7afd531a3cfef590c.html).
 
 Authors
 -------------
