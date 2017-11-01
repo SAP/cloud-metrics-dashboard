@@ -3,9 +3,9 @@
 Intro
 -----------
 
-You can use the monitoring service of SAP HANA Cloud Platform to receive states and metrics of SAP HANA Cloud Platform Java applications and the applications' processes. These Java applications can be in different SAP HANA Cloud Platform accounts or even on different data centers (locations). For more information about the currently supported data centers and their hosts, see [Landscape Hosts](https://help.hana.ondemand.com/help/frameset.htm?350356d1dc314d3199dca15bd2ab9b0e.html).
+You can use the monitoring service of SAP Cloud Platform to receive states and metrics of SAP Cloud Platform Java applications and the applications' processes. These Java applications can be in different SAP Cloud Platform subaccounts or even on different regions. For more information about the currently supported regions and their hosts, see [Regions and Hosts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html).
 
-The only requirement for this scenario to work is that your user is a member of the accounts that the Java applications are located in. For more information about how to check account memberships, see [Managing Members](https://help.hana.ondemand.com/help/frameset.htm?937c3cef72bb101490cf767db0e91070.html).
+The only requirement for this scenario to work is that your user is a member of the subaccounts that the Java applications are located in. For more information about how to check subaccount memberships, see [Managing Members in the Neo Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/937c3cef72bb101490cf767db0e91070.html).
 
 The communication between your dashboard application and the monitoring service works as follows:
 
@@ -32,7 +32,7 @@ This cloud-metrics-dashboard application is implemented to retrieve the state of
 Configuration
 -------------
 
-Download this project locally and follow the instructions in [Tutorial: Implementing a Dashboard Application](https://help.hana.ondemand.com/help/frameset.htm?e4aec18cf61747a7afd531a3cfef590c.html).
+Download this project locally and follow the instructions in [Tutorial: Implementing a Dashboard Application](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/e4aec18cf61747a7afd531a3cfef590c.html).
 
 Authors
 -------------
