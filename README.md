@@ -3,11 +3,11 @@
 Intro
 -----------
 
-You can use the monitoring service of SAP Cloud Platform to receive states and metrics of SAP Cloud Platform Java applications and the applications' processes. These Java applications can be in different SAP Cloud Platform subaccounts or even on different regions. For more information about the currently supported regions and their hosts, see [Regions and Hosts](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html).
+You can use SAP Monitoring service for SAP BTP to receive states and metrics of Java applications and the applications' processes. These Java applications can be in different subaccounts or even on different regions. For more information about the currently supported regions and their hosts, see [Regions and Hosts Available for the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/d722f7cea9ec408b85db4c3dcba07b52.html).
 
-The only requirement for this scenario to work is that your user is a member of the subaccounts that the Java applications are located in. For more information about how to check subaccount memberships, see [Managing Members in the Neo Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/937c3cef72bb101490cf767db0e91070.html).
+The only requirement for this scenario to work is that your user is a member of the subaccounts the Java applications are located in. For more information about how to check subaccount memberships, see [Managing Member Authorizations in the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/a1ab5c4cc117455392cd0a512c7f890d.html).
 
-The communication between your dashboard application and the monitoring service works as follows:
+The communication between your dashboard application and SAP Monitoring service works as follows:
 
 <p align="center">
  <img src="doc/Monitoring Service Scenario_blog.png" width="75%"/>
@@ -15,8 +15,8 @@ The communication between your dashboard application and the monitoring service 
 
 1.	An operator accesses a dashboard application in the web browser.
 
-2.	The dashboard application requests metrics of a Java application from the monitoring service with a REST API call.
-For more information about the REST call, see [Monitoring API](https://api.hana.ondemand.com/monitoring/v1/documentation).
+2.	The dashboard application requests metrics of a Java application from SAP Monitoring service with a REST API call.
+For more information about the REST call, see [Metrics API](https://api.hana.ondemand.com/monitoring/v1/documentation).
 
 3.	The monitoring service sends back a JSON response with a status code 200 OK.
 The response contains the state and metrics of the requested application.
@@ -32,7 +32,7 @@ This cloud-metrics-dashboard application is implemented to retrieve the state of
 Configuration
 -------------
 
-Download this project locally and follow the instructions in [Tutorial: Implementing a Dashboard Application](https://help.sap.com/viewer/64f7d2b06c6b40a9b3097860c5930641/Cloud/en-US/e4aec18cf61747a7afd531a3cfef590c.html).
+Download this project locally and follow the instructions in [Tutorial: Implementing a Dashboard Application](https://developers.sap.com/tutorials/cp-monitoring-dashboard.html).
 
 Authors
 -------------
