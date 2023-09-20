@@ -35,7 +35,7 @@ public class ApplicationsProxyServlet extends HttpServlet {
 
 	private static final Logger LOGGER = Logger.getLogger(ApplicationsProxyServlet.class);
 
-	private static final String API_URL_FORMAT = "https://%s/monitoring/v1/accounts/%s/apps/%s/metrics";
+	private static final String API_URL_FORMAT = "https://%s/monitoring/v2/accounts/%s/apps/%s/metrics";
 	private static final String CONTENT_TYPE = "application/json;charset=utf-8";
 	private static final Gson gson = new Gson();
 	private final Configuration config = new Configuration();
