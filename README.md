@@ -43,6 +43,7 @@ Authors
 + http://github.com/yamladenov
 
 **Nikola Simeonov**
++ https://github.com/nikolasimeonov77
 
 Contributing
 ---------------------
