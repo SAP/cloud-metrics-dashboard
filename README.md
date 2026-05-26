@@ -43,9 +43,11 @@ Authors
 + http://github.com/yamladenov
 
 **Nikola Simeonov**
++ https://github.com/nikolasimeonov77
 
-Copyright and license
+Contributing
 ---------------------
+See [Contributing to an SAP Open Source Project](https://github.com/SAP/.github/blob/main/CONTRIBUTING.md)
 
 Copyright (c) 2016-2026 SAP SE
 
