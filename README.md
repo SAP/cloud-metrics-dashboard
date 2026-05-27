@@ -18,7 +18,7 @@ The communication between your dashboard application and SAP Monitoring service 
 1.	An operator accesses a dashboard application in the web browser.
 
 2.	The dashboard application requests metrics of a Java application from SAP Monitoring service with a REST API call.
-For more information about the REST call, see [Metrics API](https://api.hana.ondemand.com/monitoring/v1/documentation).
+For more information about the REST call, see [Metrics API](https://api.sap.com/api/HCP_Monitoring_v2/overview).
 
 3.	The monitoring service sends back a JSON response with a status code 200 OK.
 The response contains the state and metrics of the requested application.
