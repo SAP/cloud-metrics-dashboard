@@ -1,6 +1,6 @@
 # cloud-metrics-dashboard
 
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP/cloud-metrics-dashboard/)](https://api.reuse.software/info/github.com/SAP/cloud-metrics-dashboard/)
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP/cloud-metrics-dashboard)](https://api.reuse.software/info/github.com/SAP/cloud-metrics-dashboard)
 
 Intro
 -----------
